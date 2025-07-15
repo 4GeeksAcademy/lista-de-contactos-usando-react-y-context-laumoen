@@ -27,7 +27,7 @@ export const Demo = () => {
                   type: "add_task", 
                   payload: { id: item.id, color: '#ffa500' }
                 })}>
-                Change Color
+                lkdmwljdnwj,d
               </button>
             </li>
           );
