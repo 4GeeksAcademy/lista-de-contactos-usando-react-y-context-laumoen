@@ -7,37 +7,44 @@ export const Demo = () => {
   const { store, dispatch } = useGlobalReducer()
 
   return (
+
     <div className="container">
-      <ul className="list-group">
-        {/* Map over the 'todos' array from the store and render each item as a list element */}
-        {store && store.todos?.map((item) => {
-          return (
-            <li
-              key={item.id}  // React key for list items.
-              className="list-group-item d-flex justify-content-between"
-              style={{ background: item.background }}> 
-              
-              {/* Link to the detail page of this todo. */}
-              <Link to={"/single/" + item.id}>Link to: {item.title} </Link>
-              
-              <p>Open file ./store.js to see the global store that contains and updates the list of colors</p>
-              
-              <button className="btn btn-success" 
-                onClick={() => dispatch({
-                  type: "add_task", 
-                  payload: { id: item.id, color: '#ffa500' }
-                })}>
-                lkdmwljdnwj,d
-              </button>
-            </li>
-          );
-        })}
-      </ul>
+
+      <form>
+
+      <h1 className="text-center">Add a new contact</h1>
+
       <br />
 
-      <Link to="/">
-        <button className="btn btn-primary">Back home</button>
-      </Link>
+      <p>Full name</p>
+      <input type="text" className="mb-3 w-100 border rounded p-2" placeholder="Enter your contact's full name"/>
+
+      <p>E-mail</p>
+      <input type="text" className="mb-3 w-100 border rounded p-2" placeholder="thisIsAn@example.email"/>
+
+      <p>Phone number</p>
+      <input type="text" className="mb-3 w-100 border rounded p-2" placeholder="+00 123456789"/>
+
+      <p>Address</p>
+      <input type="text" className="mb-3 w-100 border rounded p-2" placeholder="Enter your contact's address"/>
+
+      <br />
+
+      <div className="text-center">
+
+          <button className="btn btn-primary">Save contact</button>
+
+      </div>
+
+      </form>
+
+      <div>
+        <Link to="/">
+          <button className="btn btn-danger mt-2">Go back to "Contacts"</button>
+        </Link>
+      </div>
+
     </div>
+
   );
 };

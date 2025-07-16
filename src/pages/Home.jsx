@@ -24,7 +24,7 @@ export const Home = () => {
             			<li class="nav-item">
                 			<a href="#" class="nav-link active text-dark link-dark"><i class="fa-solid fa-pencil"></i></a>
             			</li>
-            			<li class="nav-item">
+            			<li class="nav-item" onClick={() => deleteContact(contact.id)}>
                 			<a href="#" class="nav-link text-dark link-dark"><i class="fa-solid fa-trash-can"></i></a>
             			</li>
         			</ul>
