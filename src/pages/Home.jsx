@@ -15,17 +15,17 @@ export const Home = () => {
 				</div>
 				<div>
 					<p><strong>Mike Anamendolla</strong></p>
-					<p className="text-secondary"><i class="fa-solid fa-location-dot"></i> 5842 Hillcrest Rd</p>
-					<p className="text-secondary"><i class="fa-solid fa-phone"></i> (870) 288-4149</p>
-					<p className="text-secondary"><i class="fa-solid fa-envelope"></i> mike.ana@example.com</p>
+					<p className="text-secondary"><i className="fa-solid fa-location-dot"></i> 5842 Hillcrest Rd</p>
+					<p className="text-secondary"><i className="fa-solid fa-phone"></i> (870) 288-4149</p>
+					<p className="text-secondary"><i className="fa-solid fa-envelope"></i> mike.ana@example.com</p>
 				</div>
 				<div className="icons">
-					<ul class="nav nav-link d-flex">
-            			<li class="nav-item">
-                			<a href="#" class="nav-link active text-dark link-dark"><i class="fa-solid fa-pencil"></i></a>
+					<ul className="nav nav-link d-flex">
+            			<li className="nav-item">
+                			<a href="#" className="nav-link active text-dark link-dark"><i className="fa-solid fa-pencil"></i></a>
             			</li>
-            			<li class="nav-item" onClick={() => deleteContact(contact.id)}>
-                			<a href="#" class="nav-link text-dark link-dark"><i class="fa-solid fa-trash-can"></i></a>
+            			<li className="nav-item" onClick={() => deleteContact(contact.id)}>
+                			<a href="#" className="nav-link text-dark link-dark"><i className="fa-solid fa-trash-can"></i></a>
             			</li>
         			</ul>
 				</div>
@@ -41,17 +41,17 @@ export const Home = () => {
 				</div>
 				<div>
 					<p><strong>Mike Anamendolla</strong></p>
-					<p className="text-secondary"><i class="fa-solid fa-location-dot"></i> 5842 Hillcrest Rd</p>
-					<p className="text-secondary"><i class="fa-solid fa-phone"></i> (870) 288-4149</p>
-					<p className="text-secondary"><i class="fa-solid fa-envelope"></i> mike.ana@example.com</p>
+					<p className="text-secondary"><i className="fa-solid fa-location-dot"></i> 5842 Hillcrest Rd</p>
+					<p className="text-secondary"><i className="fa-solid fa-phone"></i> (870) 288-4149</p>
+					<p className="text-secondary"><i className="fa-solid fa-envelope"></i> mike.ana@example.com</p>
 				</div>
 				<div className="icons">
-					<ul class="nav nav-link d-flex">
-            			<li class="nav-item">
-                			<a href="#" class="nav-link active text-dark link-dark"><i class="fa-solid fa-pencil"></i></a>
+					<ul className="nav nav-link d-flex">
+            			<li className="nav-item">
+                			<a href="#" className="nav-link active text-dark link-dark"><i className="fa-solid fa-pencil"></i></a>
             			</li>
             			<li class="nav-item">
-                			<a href="#" class="nav-link text-dark link-dark"><i class="fa-solid fa-trash-can"></i></a>
+                			<a href="#" className="nav-link text-dark link-dark"><i className="fa-solid fa-trash-can"></i></a>
             			</li>
         			</ul>
 				</div>
@@ -67,17 +67,17 @@ export const Home = () => {
 				</div>
 				<div>
 					<p><strong>Mike Anamendolla</strong></p>
-					<p className="text-secondary"><i class="fa-solid fa-location-dot"></i> 5842 Hillcrest Rd</p>
-					<p className="text-secondary"><i class="fa-solid fa-phone"></i> (870) 288-4149</p>
-					<p className="text-secondary"><i class="fa-solid fa-envelope"></i> mike.ana@example.com</p>
+					<p className="text-secondary"><i className="fa-solid fa-location-dot"></i> 5842 Hillcrest Rd</p>
+					<p className="text-secondary"><i className="fa-solid fa-phone"></i> (870) 288-4149</p>
+					<p className="text-secondary"><i className="fa-solid fa-envelope"></i> mike.ana@example.com</p>
 				</div>
 				<div className="icons">
-					<ul class="nav nav-link d-flex">
-            			<li class="nav-item">
-                			<a href="#" class="nav-link active text-dark link-dark"><i class="fa-solid fa-pencil"></i></a>
+					<ul className="nav nav-link d-flex">
+            			<li className="nav-item">
+                			<a href="#" className="nav-link active text-dark link-dark"><i className="fa-solid fa-pencil"></i></a>
             			</li>
             			<li class="nav-item">
-                			<a href="#" class="nav-link text-dark link-dark"><i class="fa-solid fa-trash-can"></i></a>
+                			<a href="#" className="nav-link text-dark link-dark"><i className="fa-solid fa-trash-can"></i></a>
             			</li>
         			</ul>
 				</div>
@@ -93,17 +93,17 @@ export const Home = () => {
 				</div>
 				<div>
 					<p><strong>Mike Anamendolla</strong></p>
-					<p className="text-secondary"><i class="fa-solid fa-location-dot"></i> 5842 Hillcrest Rd</p>
-					<p className="text-secondary"><i class="fa-solid fa-phone"></i> (870) 288-4149</p>
-					<p className="text-secondary"><i class="fa-solid fa-envelope"></i> mike.ana@example.com</p>
+					<p className="text-secondary"><i className="fa-solid fa-location-dot"></i> 5842 Hillcrest Rd</p>
+					<p className="text-secondary"><i className="fa-solid fa-phone"></i> (870) 288-4149</p>
+					<p className="text-secondary"><i className="fa-solid fa-envelope"></i> mike.ana@example.com</p>
 				</div>
 				<div className="icons">
-					<ul class="nav nav-link d-flex">
-            			<li class="nav-item">
-                			<a href="#" class="nav-link active text-dark link-dark"><i class="fa-solid fa-pencil"></i></a>
+					<ul className="nav nav-link d-flex">
+            			<li className="nav-item">
+                			<a href="#" className="nav-link active text-dark link-dark"><i className="fa-solid fa-pencil"></i></a>
             			</li>
-            			<li class="nav-item">
-                			<a href="#" class="nav-link text-dark link-dark"><i class="fa-solid fa-trash-can"></i></a>
+            			<li className="nav-item">
+                			<a href="#" className="nav-link text-dark link-dark"><i className="fa-solid fa-trash-can"></i></a>
             			</li>
         			</ul>
 				</div>
