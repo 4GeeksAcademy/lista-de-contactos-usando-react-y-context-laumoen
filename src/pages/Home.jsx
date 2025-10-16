@@ -9,27 +9,6 @@ export const Home = () => {
     setEditingContact(contact);
   };
 
-  useEffect(() => {
-    const fetchContacts = async () => {
-      if (store.contacts.length > 0) return;
-
-      try {
-        const resp = await fetch(
-          "https://playground.4geeks.com/contact/agendas/laumoen_contact_list/contacts"
-        );
-        if (!resp.ok) throw new Error("Oh no! Your contacts can't be loaded :(");
-
-        const data = await resp.json();
-        const contactsArray = Array.isArray(data) ? data : [data];
-        dispatch({ type: "SET_CONTACTS", payload: contactsArray });
-      } catch (error) {
-        console.error("Oh no! Your contacts can't be loaded :(", error);
-      }
-    };
-
-    fetchContacts();
-  }, [dispatch, store.contacts.length]);
-
   const deleteContact = async (id) => {
     try {
       const resp = await fetch(
@@ -57,7 +36,7 @@ export const Home = () => {
 
       const data = await resp.json();
       dispatch({ type: "SET_CONTACTS", payload: store.contacts.map(c => c.id === data.id ? data : c) });
-      setEditingContact(null); // Cerramos la edición
+      setEditingContact(null);
     } catch (error) {
       console.error("Error updating contact:", error);
       alert("Error updating contact");
